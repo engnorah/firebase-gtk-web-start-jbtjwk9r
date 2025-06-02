@@ -16,7 +16,7 @@ Technical tools:
 
 Deliverables:
 
-- Source code (GitHub repository or ZIP file)
+- Source code GitHub repository
 - Short README file with setup instructions
-- Optional: Link to a live demo (e.g., deployed on Vercel, Heroku, etc.)
+- Link to a live demo: https://firebase-gtk-web-start-jbtjwk9r.stackblitz.io/
   [Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/engnorah/Innovative_app)
