@@ -12,7 +12,7 @@ Technical tools:
 - Frontend: HTML/CSS/JS
 - Backend: Firebase
 - Database: Firebase Store
-- Innovation: Extra features, design enhancements, or unique ideas
+- Innovation: Extra feature; delete idea
 
 Deliverables:
 
