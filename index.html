@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Innovation Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  </head>
+  <body>
+    <div class="parent">
+      <img
+        src="https://www.rikon.ie/wp-content/uploads/2018/12/Innovation.png"
+      />
+    </div>
+    <div class="container">
+      <h1>Innovation Tracker</h1>
+      <form id="ideaForm">
+        <input type="text" id="title" placeholder="Idea Title" required />
+        <textarea
+          id="description"
+          placeholder="Describe your innovation..."
+          required
+        ></textarea>
+        <input type="text" id="category" placeholder="Category" required />
+        <button type="submit">Submit Idea</button>
+      </form>
+
+      <h2>Submitted Ideas</h2>
+      <div id="ideasList"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
